@@ -3,14 +3,14 @@ import "../App.css";
 const Navbar = () => {
   return (
   
-    <header class="BaseHeader ExplorerHeader">
-      <div aria-hidden="true" class="BaseHeader__overlay"></div>
-      <div class="BaseHeader__container">
-        <a class="BaseHeader__logo" href="/">
-          <img alt="Forta logo" src="/forta_explorer_logo.svg" height="20" />
+    <header className="BaseHeader ExplorerHeader">
+      <div aria-hidden="true" className="BaseHeader__overlay"></div>
+      <div className="BaseHeader__container">
+        <a className="BaseHeader__logo" href="/">
+          <img alt="Forta logo" src="https://res.cloudinary.com/mae-com-in/image/upload/v1691760710/forta_explorer_logo_vcdkz2.svg" height="20" />
         </a>
-        <button class="Button Button--tertiary Button--lg Button--icon BaseHeader__menu-button">
-          <div class="Button__icon">
+        <button className="Button Button--tertiary Button--lg Button--icon BaseHeader__menu-button">
+          <div className="Button__icon">
             <svg
               width="25"
               height="25"
@@ -42,44 +42,44 @@ const Navbar = () => {
             </svg>
           </div>
         </button>
-        <div class="BaseHeader__menu">
-          <div class="BaseHeader__menu-container">
-            <nav class="BaseHeader__navigation">
-              <ul class="BaseHeader__nav-items">
+        <div className="BaseHeader__menu">
+          <div className="BaseHeader__menu-container">
+            <nav className="BaseHeader__navigation">
+              <ul className="BaseHeader__nav-items">
                 <li>
                   <a
                     aria-current="page"
-                    class="MenuItem MenuItem--active"
+                    className="MenuItem MenuItem--active"
                     href="/"
                   >
-                    <span class="MenuItem__label">Bot Search</span>
+                    <span className="MenuItem__label">Bot Search</span>
                   </a>
                 </li>
                 <li>
-                  <a class="MenuItem" href="/explorer">
-                    <span class="MenuItem__label">Alerts</span>
+                  <a className="MenuItem" href="/explorer">
+                    <span className="MenuItem__label">Alerts</span>
                   </a>
                 </li>
                 <li>
-                  <a class="MenuItem" href="/network">
-                    <span class="MenuItem__label">Network</span>
+                  <a className="MenuItem" href="/network">
+                    <span className="MenuItem__label">Network</span>
                   </a>
                 </li>
               </ul>
-              <div aria-hidden="true" class="BaseHeader__separator"></div>
-              <ul class="BaseHeader__nav-items">
+              <div aria-hidden="true" className="BaseHeader__separator"></div>
+              <ul className="BaseHeader__nav-items">
                 <li>
                   <a
                     href="https://app.forta.network"
                     target="_blank"
                     rel="noopener noreferrer"
-                    class="MenuItem"
+                    className="MenuItem"
                   >
-                    <span class="MenuItem__label">Forta App</span>
-                    <span class="MenuItem__icon">
+                    <span className="MenuItem__label">Forta App</span>
+                    <span className="MenuItem__icon">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5"
+                        className="h-5 w-5"
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -96,14 +96,14 @@ const Navbar = () => {
                 </li>
               </ul>
             </nav>
-            <div class="BaseHeader__additional-menu">
+            <div className="BaseHeader__additional-menu">
               <a
                 target="_blank"
-                class="Button Button--outline Button--md Button--round ExplorerHeader__subscribe-button"
+                className="Button Button--outline Button--md Button--round ExplorerHeader__subscribe-button"
                 href="https://app.forta.network"
                 rel="noopener noreferrer"
               >
-                <div class="Button__content">Subscribe to Alerts</div>
+                <div className="Button__content">Subscribe to Alerts</div>
               </a>
             </div>
           </div>

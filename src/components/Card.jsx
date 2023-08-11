@@ -85,7 +85,7 @@ export default function Card() {
                 console.log(e.id);
                 return (
                   <>
-                    <div className="col-lg-6">
+                    <div className="col-lg-6 ">
                       <div className="card mb-4 p-4 ml-lg-4 mr-lg-4 ">
                         <div className="row">
                           <div className="col">
